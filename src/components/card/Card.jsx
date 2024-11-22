@@ -5,7 +5,7 @@ import { FiThumbsUp } from "react-icons/fi";
 
 const Card = ({ result }) => {
   return (
-    <div className="group ">
+    <div className="group">
       <Link href={`/movie/${result.id}`}>
         <Image
           alt="poster"
