@@ -8,7 +8,7 @@ const Movie = ({ movie }) => {
     <div className="w-full">
       <div className="p-4 md:pt-8 flex flex-col md:flex-row items-center max-w-6xl mx-auto md:space-x-6">
         <motion.div
-          initial={{ opacity: 0, x: -50 }}
+          initial={{ opacity: 0, x: -60 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
@@ -25,7 +25,7 @@ const Movie = ({ movie }) => {
 
         <motion.div
           className="p-2 space-y-3"
-          initial={{ opacity: 0, x: 50 }}
+          initial={{ opacity: 0, x: 60 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
